@@ -107,5 +107,6 @@ class PrgmCompiler(object):
                 except:
                     print("Could not decode " + str(curr_byte))
                     byte_num += 1
+                    print(str(prgm_data[byte_num]))
 
         return "".join(plaintext).split("\n")
