@@ -12,7 +12,8 @@ TI programs at [github.com/thenaterhood/ti-programs](https://github.com/thenater
 
 Installation
 ------------
-basically_ti_basic can be installed like any other typical Python package.
+
+basically_ti_basic can be installed via pip with `pip3 install basically-ti-basic`, or it can be built.
 Once Python (3+) is installed on the target system, simply clone the repository
 and navigate to the cloned repository in the command line. Once there, run
 `python setup.py install`. You should be good to go.
@@ -38,6 +39,19 @@ Open the file FIBO.8Xp, decompile it, and print the result to the console
 
 `$ basically-ti-basic -d -i FIBO.8Xp`
 
+basically_ti_basic can be used in a program as well.
+
+```py
+import basically_ti_basic as btb
+
+# Decompile 8Xp file
+btb.decompile_file("input.8Xp", "tibasic.txt")
+
+# Compile 8Xp file from TI-BASIC code
+btb.compile_file("tibasic.txt", "output.8Xp")
+```
+
+<!--
 basically_ti_basic can also be imported into other applications. The libraries
 that may interest you the most are:
 
@@ -46,7 +60,7 @@ that may interest you the most are:
 * `basically_ti_basic.compiler.PrgmCompiler`: Provides compilation and decompilation functionality.
 
 * `basically_ti_basic.files.TIPrgmFile`: Structure that represents a TI Program file and provides methods for generating the file headers.
-
+-->
 **Heads Up! The TI file creation (compilation) functionality is incomplete and
 may produce malformed files. Use it with caution and make sure to back up your
 calculator before loading any compiled files onto it.**
