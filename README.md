@@ -84,4 +84,5 @@ what keeps open source projects strong.
 
 Credits
 ------------
-Special thanks to [http://merthsoft.com/](http://merthsoft.com/) for their [TI-83+/TI-84+ Link Protocol Guide](http://merthsoft.com/linkguide/ti83+/index.html), which was a big help in writing sections of this software.
+Special thanks to [http://merthsoft.com/](http://merthsoft.com/) for their [TI-83+/TI-84+ Link Protocol Guide](http://merthsoft.com/linkguide/ti83+/index.html), which was a big help in writing sections of this software, and [thenaterhood](https://github.com/thenaterhood) for originally writing it.
+
