@@ -9,7 +9,8 @@ print(u"\u001b[33m==============================================================
 print(u"\u001b[36mInitializing test! (1/2)")
 try:
 	print(u"\u001b[33m===================================================================\u001b[0m")
-	compiler = btb.decompile_file(FILE, "output.txt")
+	print("btb.decompile_file(FILE, \"output.txt\")")
+	btb.decompile_file(FILE, "output.txt")
 	print(u"\u001b[33m===================================================================\u001b[0m")
 	print("")
 except Exception as e:
@@ -24,7 +25,8 @@ print(u"\u001b[33m==============================================================
 print(u"\u001b[36mInitializing test! (2/2)")
 try:
 	print(u"\u001b[33m===================================================================\u001b[0m")
-	compiler = btb.compile_file("output.txt", "newlyCompiled.8Xp")
+	btb.compile_file("output.txt", "newlyCompiled.8Xp")
+	print("btb.compile_file(\"output.txt\", \"newlyCompiled.8Xp\")")
 	print(u"\u001b[33m===================================================================\u001b[0m")
 	print("")
 except Exception as e:
