@@ -1,6 +1,12 @@
 Basically, TI-Basic
 ========
 
+[![PyPI version](https://badge.fury.io/py/basically-ti-basic.svg)](https://badge.fury.io/py/basically-ti-basic)
+[![Downloads](https://pepy.tech/badge/basically-ti-basic)](https://pepy.tech/project/basically-ti-basic)
+[![PyPI license](https://img.shields.io/pypi/l/ansicolortags.svg)](https://pypi.python.org/pypi/ansicolortags/)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/TabulateJarl8/basically-ti-basic/graphs/commit-activity)
+[![GitHub issues](https://img.shields.io/github/issues/TabulateJarl8/basically-ti-basic.svg)](https://GitHub.com/TabulateJarl8/basically-ti-basic/issues/)
+
 Software to make working with TI-Basic files much easier on the PC by decompiling
 and recompiling the .8Xp files from the TI-83/TI-84 calculators. For more
 information about the 8Xp file format, see the site listed in the credits and
@@ -8,7 +14,7 @@ the 8XP_Format.md file, which contains additional reverse-engineered
 information.
 
 If you're looking for files to compile/decompile, you can find a number of
-TI programs at [github.com/thenaterhood/ti-programs](https://github.com/thenaterhood/ti-programs).
+TI programs at [https://github.com/thenaterhood/ti-programs](https://github.com/thenaterhood/ti-programs).
 
 Installation
 ------------
