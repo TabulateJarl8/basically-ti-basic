@@ -488,7 +488,7 @@ _tokens = dict([
     (b'\xFD', 'xyLine'),
     (b'\xFE', 'Scatter'),
     (b'\xFF', 'LinReg(ax+b) '),
-	(b'\xEF\x67', 'Textcolor('),
+	(b'\xEF\x67', 'TextColor('),
 	(b'\xEF\x5B', 'BackgroundOn '),
 	(b'\xEF\x41', 'BLUE'),
 	(b'\xEF\x42', 'RED'),
